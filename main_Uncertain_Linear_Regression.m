@@ -80,7 +80,7 @@ else
     fprintf('残差标准差与观测数据上下极差的比例是: %.2f%%\n', percent_ULR * 100);
     
     % ---可选项，输出残差检验的细节---
-    % disp('---空间自回归模型残差不通过概率的假设检验，细节如下---')
+    % disp('---不确定线性回归模型残差不通过概率的假设检验，细节如下---')
     % test_Random_Normal(best_residuals_ULR,'detail');
 end
 toc
